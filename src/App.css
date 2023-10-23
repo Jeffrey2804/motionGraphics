@@ -1,0 +1,87 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  animation: logo-spin 5s linear infinite;
+  position: relative;
+  /* left: 40px; */
+  /* top: 500px; */
+  /* height: 6em; */
+
+}
+
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.box1 {
+  height: 30em;
+  left: 30px;
+  
+  animation: box1 7s linear infinite;
+  position: relative;
+}
+
+.box3{
+  height: 30em;
+  left: 30px;
+  
+  animation: box1 10s linear infinite;
+  position: relative;
+}
+
+
+.box2 {
+  height: 30em;
+  /* left : -354px; */
+}
+
+
+.logos-container {
+  height: 200px;
+}
+
+@keyframes logo-spin {
+
+  0%,
+  100% {
+    bottom: 0;
+  }
+
+  50% {
+    bottom: 100px;
+  }
+}
+
+
+@keyframes box1 {
+
+  0%,
+  100% {
+    bottom: 0;
+  }
+
+  50% {
+    bottom: 100px;
+  }
+}
+
+
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
